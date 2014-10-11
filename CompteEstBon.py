@@ -78,7 +78,7 @@ class CompteEstBon:
     """Game class"""
 
     def __init__(self):
-        # Target is choosen randomly (1 <= target < 1000)
+        # Target is choosen randomly (101 <= target < 1000)
         self.target = random.randrange(101, 1000)
         # Base numbers are chosen randomly between 1..10, 25, 50, 75, 100
         possible = list(range(1, 11)) + [25, 50, 75, 100]
